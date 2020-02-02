@@ -20,9 +20,6 @@ function sendResponse(res, next, status, message, result = null) {
 
 class ListController {
 
-    let
-    const
-
     fetchLists(req, res, next) {
         // we want to return an array of all the list that belong to the authenticated user.
         List.find({
